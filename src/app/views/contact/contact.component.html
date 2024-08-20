@@ -1,0 +1,107 @@
+<div class="contact-container">
+    <h1>{{ 'CONTACT.CONTACT_FORM_TITLE' | translate }}</h1>
+    <p>{{ 'CONTACT.CONTACT_FORM_DESCRIPTION' | translate }}</p>
+    
+    <div class="contact-form-container">
+        <h2>{{ 'CONTACT_FORM.TITLE' | translate }}</h2>
+        <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+          <!-- Campo Nombre -->
+          <div class="form-group">
+            <label for="name">{{ 'CONTACT_FORM.NAME_LABEL' | translate }}</label>
+            <input
+              type="text"
+              id="name"
+              formControlName="name"
+              class="form-control"
+              placeholder="{{ 'CONTACT_FORM.NAME_PLACEHOLDER' | translate }}"
+            />
+            <div *ngIf="submitted && formControls['name'].invalid" class="invalid-feedback">
+              {{ 'CONTACT_FORM.NAME_ERROR' | translate }}
+            </div>
+          </div>
+      
+          <!-- Campo Correo Electrónico -->
+          <div class="form-group">
+            <label for="email">{{ 'CONTACT_FORM.EMAIL_LABEL' | translate }}</label>
+            <input
+              type="email"
+              id="email"
+              formControlName="email"
+              class="form-control"
+              placeholder="{{ 'CONTACT_FORM.EMAIL_PLACEHOLDER' | translate }}"
+            />
+            <div *ngIf="submitted && formControls['email'].invalid" class="invalid-feedback">
+              {{ 'CONTACT_FORM.EMAIL_ERROR' | translate }}
+            </div>
+          </div>
+      
+          <!-- Campo Teléfono -->
+          <div class="form-group">
+            <label for="phone">{{ 'CONTACT_FORM.PHONE_LABEL' | translate }}</label>
+            <input
+              type="text"
+              id="phone"
+              formControlName="phone"
+              class="form-control"
+              placeholder="{{ 'CONTACT_FORM.PHONE_PLACEHOLDER' | translate }}"
+            />
+            <div *ngIf="submitted && formControls['phone'].invalid" class="invalid-feedback">
+              {{ 'CONTACT_FORM.PHONE_ERROR' | translate }}
+            </div>
+          </div>
+      
+          <!-- Campo Mensaje -->
+          <div class="form-group">
+            <label for="message">{{ 'CONTACT_FORM.MESSAGE_LABEL' | translate }}</label>
+            <textarea
+              id="message"
+              formControlName="message"
+              class="form-control"
+              rows="5"
+              placeholder="{{ 'CONTACT_FORM.MESSAGE_PLACEHOLDER' | translate }}"
+            ></textarea>
+            <div *ngIf="submitted && formControls['message'].invalid" class="invalid-feedback">
+              {{ 'CONTACT_FORM.MESSAGE_ERROR' | translate }}
+            </div>
+          </div>
+      
+          <!-- Botón de Enviar -->
+          <button type="submit" class="btn btn-primary">
+            {{ 'CONTACT_FORM.SUBMIT_BUTTON' | translate }}
+          </button>
+        </form>
+      </div>
+      
+  
+    <div class="contact-information">
+      <h2>{{ 'CONTACT.CONTACT_INFORMATION_TITLE' | translate }}</h2>
+      <p>{{ 'CONTACT.CONTACT_INFORMATION_DESCRIPTION' | translate }}</p>
+      <!-- Detalles de contacto -->
+    </div>
+  
+    <div class="location-map">
+      <h2>{{ 'CONTACT.LOCATION_MAP_TITLE' | translate }}</h2>
+      <p>{{ 'CONTACT.LOCATION_MAP_DESCRIPTION' | translate }}</p>
+      <!-- Integración de Google Maps o mapa similar -->
+    </div>
+  
+    <div class="social-media">
+      <h2>{{ 'CONTACT.SOCIAL_MEDIA_TITLE' | translate }}</h2>
+      <p>{{ 'CONTACT.SOCIAL_MEDIA_DESCRIPTION' | translate }}</p>
+      <!-- Iconos de redes sociales -->
+    </div>
+  
+    <div class="additional-information">
+      <h2>{{ 'CONTACT.ADDITIONAL_INFORMATION_TITLE' | translate }}</h2>
+      <p>{{ 'CONTACT.ADDITIONAL_INFORMATION_DESCRIPTION' | translate }}</p>
+      <!-- Información adicional -->
+    </div>
+  
+    <div class="cta-section">
+      <h2>{{ 'CONTACT.CTA_TITLE' | translate }}</h2>
+      <p>{{ 'CONTACT.CTA_DESCRIPTION' | translate }}</p>
+      <!-- Botón de llamada a la acción -->
+      <button>{{ 'CONTACT.CTA_TITLE' | translate }}</button>
+    </div>
+  </div>
+  

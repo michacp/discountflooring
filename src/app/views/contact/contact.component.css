@@ -1,0 +1,96 @@
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-container h1,
+  .contact-container h2 {
+    color: #2C3E50;
+    margin-bottom: 10px;
+  }
+  
+  .contact-container p {
+    color: #7F8C8D;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    margin-bottom: 30px;
+  }
+  
+  .contact-information,
+  .location-map,
+  .social-media,
+  .additional-information,
+  .cta-section {
+    margin-bottom: 40px;
+  }
+  
+  .cta-section button {
+    background-color: #3498DB;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .cta-section button:hover {
+    background-color: #2980B9;
+  }
+  
+
+
+  .contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form-container h1 {
+    color: #2C3E50;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form-container .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .contact-form-container .form-group label {
+    color: #34495E;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form-container .form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+  }
+  
+  .contact-form-container .btn-primary {
+    background-color: #3498DB;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #FFF;
+  }
+  
+  .contact-form-container .btn-primary:hover {
+    background-color: #2980B9;
+  }
+  
+  .is-invalid {
+    border-color: #E74C3C;
+  }
+  
+  .invalid-feedback {
+    color: #E74C3C;
+    font-size: 0.875em;
+  }

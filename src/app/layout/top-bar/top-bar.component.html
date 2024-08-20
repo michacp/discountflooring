@@ -1,0 +1,12 @@
+<mat-toolbar class="topbar">
+  <div class="logo-container">
+    <span class="logo-text">Discount Flooring</span>
+  </div>
+  <span class="spacer"></span>
+  <div class="language-selector">
+    <mat-select placeholder="Select Language" (selectionChange)="switchLanguage($event)">
+      <mat-option value="en">English</mat-option>
+      <mat-option value="es">Español</mat-option>
+    </mat-select>
+  </div>
+</mat-toolbar>

@@ -1,0 +1,60 @@
+.about-us-section {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .about-us-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0056b3;
+  }
+  
+  .about-us-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-us-section p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .values ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+  }
+  
+  .team-members {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    text-align: center;
+    flex: 1;
+    max-width: 200px;
+  }
+  
+  .team-member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .clients-logos {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+  }
+  
+  .clients-logos img {
+    max-width: 100px;
+    max-height: 50px;
+  }
+  
+  .cta {
+    text-align: center;
+    margin-top: 2rem;
+  }

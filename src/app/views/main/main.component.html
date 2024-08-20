@@ -1,0 +1,109 @@
+<div class="main-content">
+
+   <!-- Carrusel de Imágenes -->
+   <ngb-carousel>
+    <ng-template ngbSlide>
+      <img src="assets/images/flooring-1.jpg" [alt]="'MAIN.MEDIA_DESCRIPTION_1' | translate" class="d-block w-100">
+      <div class="carousel-caption">
+        <h3>{{ 'MAIN.MEDIA_DESCRIPTION_1' | translate }}</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img src="assets/images/flooring-2.jpg" [alt]="'MAIN.MEDIA_DESCRIPTION_2' | translate" class="d-block w-100">
+      <div class="carousel-caption">
+        <h3>{{ 'MAIN.MEDIA_DESCRIPTION_2' | translate }}</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img src="assets/images/flooring-3.jpg" [alt]="'MAIN.MEDIA_DESCRIPTION_3' | translate" class="d-block w-100">
+      <div class="carousel-caption">
+        <h3>{{ 'MAIN.MEDIA_DESCRIPTION_3' | translate }}</h3>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  
+    <!-- Encabezado Impactante -->
+    <section class="hero">
+      <h1>{{ 'MAIN.HERO_TITLE' | translate }}</h1>
+      <p>{{ 'MAIN.HERO_SUBTITLE' | translate }}</p>
+      <button mat-raised-button color="accent">{{ 'MAIN.CTA' | translate }}</button>
+    </section>
+  
+    <!-- Descripción del Servicio Principal -->
+    <section class="service-description">
+      <h2>{{ 'MAIN.SERVICE_TITLE' | translate }}</h2>
+      <p>{{ 'MAIN.SERVICE_DESCRIPTION' | translate }}</p>
+    </section>
+  
+    <!-- Imágenes o Videos Atractivos -->
+    <section class="media-gallery">
+      <div class="media-item">
+        <img src="assets/images/flooring-4.jpg" alt="Modern kitchen flooring">
+        <p>{{ 'MAIN.MEDIA_DESCRIPTION_1' | translate }}</p>
+      </div>
+      <div class="media-item">
+        <img src="assets/images/flooring-5.jpg" alt="Luxurious carpet installation">
+        <p>{{ 'MAIN.MEDIA_DESCRIPTION_2' | translate }}</p>
+      </div>
+      <div class="media-item">
+        <img src="assets/images/flooring-6.jpg" alt="Custom tile work">
+        <p>{{ 'MAIN.MEDIA_DESCRIPTION_3' | translate }}</p>
+      </div>
+    </section>
+  
+    <!-- Testimonios o Pruebas Sociales -->
+    <section class="testimonials">
+      <h2>{{ 'MAIN.TESTIMONIALS_TITLE' | translate }}</h2>
+      <div class="testimonial">
+        <p>"{{ 'MAIN.TESTIMONIAL_1' | translate }}"</p>
+        <p>- {{ 'MAIN.TESTIMONIAL_1_AUTHOR' | translate }}</p>
+      </div>
+      <div class="testimonial">
+        <p>"{{ 'MAIN.TESTIMONIAL_2' | translate }}"</p>
+        <p>- {{ 'MAIN.TESTIMONIAL_2_AUTHOR' | translate }}</p>
+      </div>
+      <div class="testimonial">
+        <p>"{{ 'MAIN.TESTIMONIAL_3' | translate }}"</p>
+        <p>- {{ 'MAIN.TESTIMONIAL_3_AUTHOR' | translate }}</p>
+      </div>
+    </section>
+  
+    <!-- Resumen de Servicios -->
+    <section class="services-summary">
+      <h2>{{ 'MAIN.SERVICES_SUMMARY_TITLE' | translate }}</h2>
+      <ul>
+        <li>{{ 'MAIN.SERVICE_1' | translate }}</li>
+        <li>{{ 'MAIN.SERVICE_2' | translate }}</li>
+        <li>{{ 'MAIN.SERVICE_3' | translate }}</li>
+        <li>{{ 'MAIN.SERVICE_4' | translate }}</li>
+      </ul>
+    </section>
+  
+    <!-- Información de Contacto o Localización -->
+    <section class="contact-info">
+      <h2>{{ 'MAIN.CONTACT_TITLE' | translate }}</h2>
+      <p>{{ 'MAIN.CONTACT_DESCRIPTION' | translate }}</p>
+      <p><strong>{{ 'MAIN.CONTACT_PHONE_LABEL' | translate }}:</strong> {{ 'MAIN.CONTACT_PHONE' | translate }}</p>
+      <p><strong>{{ 'MAIN.CONTACT_EMAIL_LABEL' | translate }}:</strong> {{ 'MAIN.CONTACT_EMAIL' | translate }}</p>
+      <p><strong>{{ 'MAIN.CONTACT_ADDRESS_LABEL' | translate }}:</strong> {{ 'MAIN.CONTACT_ADDRESS' | translate }}</p>
+    </section>
+  
+    <!-- Navegación Secundaria -->
+    <nav class="secondary-nav">
+      <ul>
+        <li><a href="/faq">{{ 'MAIN.SECONDARY_NAV_FAQ' | translate }}</a></li>
+        <li><a href="/terms">{{ 'MAIN.SECONDARY_NAV_TERMS' | translate }}</a></li>
+        <li><a href="/privacy">{{ 'MAIN.SECONDARY_NAV_PRIVACY' | translate }}</a></li>
+      </ul>
+    </nav>
+  
+    <!-- Elementos de Confianza -->
+    <section class="trust-elements">
+      <h2>{{ 'MAIN.TRUST_TITLE' | translate }}</h2>
+      <p>{{ 'MAIN.TRUST_DESCRIPTION' | translate }}</p>
+      <img src="assets/images/trust-logo-1.png" alt="BBB Accredited">
+      <img src="assets/images/trust-logo-2.png" alt="5 Star Rating">
+      <img src="assets/images/trust-logo-3.png" alt="Certified Installer">
+    </section>
+  
+  </div>
