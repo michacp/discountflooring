@@ -184,5 +184,30 @@
     "MESSAGE_PLACEHOLDER": "Write your message here",
     "MESSAGE_ERROR": "Please enter a valid message.",
     "SUBMIT_BUTTON": "Submit"
-  }  
+  } ,
+  "CONTACT_INFO": {
+    "TITLE": "Contact Information",
+    "DESCRIPTION": "Here you can find our contact details.",
+    "ADDRESS_LABEL": "Address",
+    "ADDRESS": "123 Fake Street, Sample City, 12345",
+    "PHONE_LABEL": "Phone",
+    "PHONE": "+1 123 456 7890",
+    "EMAIL_LABEL": "Email",
+    "EMAIL": "info@discountflooring.com",
+    "WORKING_HOURS_LABEL": "Working Hours",
+    "WORKING_HOURS": "Monday to Friday, 9:00 AM - 6:00 PM"
+  },
+  "LOCATION_MAP": {
+    "TITLE": "Location Map",
+    "DESCRIPTION": "Find our location on the map."
+  },
+  "SOCIAL_MEDIA": {
+    "TITLE": "Social Media",
+    "DESCRIPTION": "Follow us on our social media channels to stay updated with our latest news."
+  },
+  "ADDITIONAL_INFO": {
+    "TITLE": "Additional Information",
+    "DESCRIPTION": "Any other relevant information you'd like to share with us.",
+    "PLACEHOLDER": "Write any additional information here..."
+  }
   }

@@ -1,19 +1,12 @@
-.carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 1rem;
-  border-radius: 0.5rem;
-}
-
-.carousel-caption h3 {
-  color: #ffffff;
-  font-size: 1.5rem;
+.carousel {
+  position: relative; /* Asegura que el carrusel esté debajo de la navbar y topbar */
+  z-index: 1;
 }
 
 .carousel img {
   object-fit: cover;
   height: 500px;
 }
-
 
 .main-content {
     font-family: 'Lato', sans-serif;

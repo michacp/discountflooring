@@ -1,7 +1,7 @@
-<mat-toolbar class="navbar">
+<mat-toolbar class="navbar" [ngClass]="{'scrolled': isScrolled}">
   <a mat-button class="nav-link" routerLink="/">{{ 'NAVBAR.HOME' | translate }}</a>
   <a (click)="aboutus()" mat-button class="nav-link" routerLink="/about">{{ 'NAVBAR.ABOUT' | translate }}</a>
-  <a class="nav-link" routerLink="/services">{{ 'NAVBAR.SERVICES' | translate }}</a>
+  <a mat-button class="nav-link" routerLink="/services">{{ 'NAVBAR.SERVICES' | translate }}</a>
   <a mat-button class="nav-link" routerLink="/contact">{{ 'NAVBAR.CONTACT' | translate }}</a>
   <span class="spacer"></span>
   <a mat-icon-button class="nav-icon" href="https://facebook.com" target="_blank">

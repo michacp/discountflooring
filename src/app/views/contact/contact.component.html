@@ -73,29 +73,78 @@
       </div>
       
   
-    <div class="contact-information">
-      <h2>{{ 'CONTACT.CONTACT_INFORMATION_TITLE' | translate }}</h2>
-      <p>{{ 'CONTACT.CONTACT_INFORMATION_DESCRIPTION' | translate }}</p>
-      <!-- Detalles de contacto -->
-    </div>
+      <div class="contact-info">
+        <h3>{{ 'CONTACT_INFO.TITLE' | translate }}</h3>
+        <p>{{ 'CONTACT_INFO.DESCRIPTION' | translate }}</p>
+        
+        <ul>
+          <li>
+            <strong>{{ 'CONTACT_INFO.ADDRESS_LABEL' | translate }}:</strong> 
+            {{ 'CONTACT_INFO.ADDRESS' | translate }}
+          </li>
+          <li>
+            <strong>{{ 'CONTACT_INFO.PHONE_LABEL' | translate }}:</strong> 
+            {{ 'CONTACT_INFO.PHONE' | translate }}
+          </li>
+          <li>
+            <strong>{{ 'CONTACT_INFO.EMAIL_LABEL' | translate }}:</strong> 
+            <a href="mailto:info@discountflooring.com">{{ 'CONTACT_INFO.EMAIL' | translate }}</a>
+          </li>
+          <li>
+            <strong>{{ 'CONTACT_INFO.WORKING_HOURS_LABEL' | translate }}:</strong> 
+            {{ 'CONTACT_INFO.WORKING_HOURS' | translate }}
+          </li>
+        </ul>
+      </div>
   
-    <div class="location-map">
-      <h2>{{ 'CONTACT.LOCATION_MAP_TITLE' | translate }}</h2>
-      <p>{{ 'CONTACT.LOCATION_MAP_DESCRIPTION' | translate }}</p>
-      <!-- Integración de Google Maps o mapa similar -->
-    </div>
+      <div class="location-map">
+        <h3>{{ 'LOCATION_MAP.TITLE' | translate }}</h3>
+        <p>{{ 'LOCATION_MAP.DESCRIPTION' | translate }}</p>
+      
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317715.1471078893!2d-0.3817768846477785!3d39.46990746866912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6046283fb01a7d%3A0x72b43f2d1c27b9d3!2sValencia%2C%20Spain!5e0!3m2!1sen!2sus!4v1692716015804!5m2!1sen!2sus"
+            width="100%"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
   
-    <div class="social-media">
-      <h2>{{ 'CONTACT.SOCIAL_MEDIA_TITLE' | translate }}</h2>
-      <p>{{ 'CONTACT.SOCIAL_MEDIA_DESCRIPTION' | translate }}</p>
-      <!-- Iconos de redes sociales -->
-    </div>
+      <div class="social-media">
+        <h3>{{ 'SOCIAL_MEDIA.TITLE' | translate }}</h3>
+        <p>{{ 'SOCIAL_MEDIA.DESCRIPTION' | translate }}</p>
+      
+        <div class="social-icons">
+          <a href="https://www.facebook.com/DiscountFlooring" target="_blank" aria-label="Facebook">
+            <img src="assets/icons/facebook-icon.svg" alt="Facebook" />
+          </a>
+          <a href="https://www.twitter.com/DiscountFlooring" target="_blank" aria-label="Twitter">
+            <img src="assets/icons/twitter-icon.svg" alt="Twitter" />
+          </a>
+          <a href="https://www.instagram.com/DiscountFlooring" target="_blank" aria-label="Instagram">
+            <img src="assets/icons/instagram-icon.svg" alt="Instagram" />
+          </a>
+          <a href="https://www.linkedin.com/company/DiscountFlooring" target="_blank" aria-label="LinkedIn">
+            <img src="assets/icons/linkedin-icon.svg" alt="LinkedIn" />
+          </a>
+        </div>
+      </div>
   
-    <div class="additional-information">
-      <h2>{{ 'CONTACT.ADDITIONAL_INFORMATION_TITLE' | translate }}</h2>
-      <p>{{ 'CONTACT.ADDITIONAL_INFORMATION_DESCRIPTION' | translate }}</p>
-      <!-- Información adicional -->
-    </div>
+      <div class="additional-info">
+        <h3>{{ 'ADDITIONAL_INFO.TITLE' | translate }}</h3>
+        <p>{{ 'ADDITIONAL_INFO.DESCRIPTION' | translate }}</p>
+      
+        <textarea 
+          formControlName="additionalInfo" 
+          class="form-control" 
+          rows="4" 
+          placeholder="{{ 'ADDITIONAL_INFO.PLACEHOLDER' | translate }}">
+        </textarea>
+      </div>
   
     <div class="cta-section">
       <h2>{{ 'CONTACT.CTA_TITLE' | translate }}</h2>

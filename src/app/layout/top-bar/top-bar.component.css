@@ -1,10 +1,18 @@
 .topbar {
-  background-color: #2c3e50; /* Fondo oscuro y elegante */
-  color: #ecf0f1; /* Texto claro */
+  background-color: rgba(44, 62, 80, 0.5); /* Medio transparente */
+  color: #ecf0f1;
   padding: 0 20px;
   font-family: 'Lato', sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
 }
 
+.topbar.scrolled {
+  background-color: #2c3e50; /* Color sólido cuando se desplaza */
+}
 .logo-container {
   display: flex;
   align-items: center;
@@ -21,15 +29,15 @@
 
 .language-selector mat-select {
   color: #ecf0f1;
-  background-color: #34495e; /* Fondo del selector en tono oscuro */
+  background-color: #34495e;
   border-radius: 4px;
-  min-width: 150px; /* Ancho mínimo para el selector */
+  min-width: 150px;
 }
 
 .language-selector .mat-select-placeholder {
-  color: #bdc3c7; /* Color para el placeholder */
+  color: #bdc3c7;
 }
 
 .language-selector .mat-select-arrow {
-  color: #ecf0f1; /* Color de la flecha */
+  color: #ecf0f1;
 }

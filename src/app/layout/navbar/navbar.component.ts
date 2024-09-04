@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component , HostListener} from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-navbar',
@@ -7,6 +7,12 @@ import { Router, ActivatedRoute } from '@angular/router';
 })
 export class NavbarComponent {
   constructor(private router: Router) {}
+  isScrolled = false;
+
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    this.isScrolled = window.pageYOffset > 0;
+  }
   aboutus() {
     this.router.navigate(['aboutus']); 
   }

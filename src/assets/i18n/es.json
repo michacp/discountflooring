@@ -183,6 +183,29 @@
     "MESSAGE_PLACEHOLDER": "Escribe tu mensaje aquí",
     "MESSAGE_ERROR": "Por favor, introduce un mensaje válido.",
     "SUBMIT_BUTTON": "Enviar"
+  },  "CONTACT_INFO": {
+    "TITLE": "Información de Contacto",
+    "DESCRIPTION": "Aquí puedes encontrar nuestros detalles de contacto.",
+    "ADDRESS_LABEL": "Dirección",
+    "ADDRESS": "Calle Falsa 123, Ciudad Ejemplo, CP 12345",
+    "PHONE_LABEL": "Teléfono",
+    "PHONE": "+34 123 456 789",
+    "EMAIL_LABEL": "Correo Electrónico",
+    "EMAIL": "info@discountflooring.com",
+    "WORKING_HOURS_LABEL": "Horario de Atención",
+    "WORKING_HOURS": "Lunes a Viernes, 9:00 AM - 6:00 PM"
+  },  "LOCATION_MAP": {
+    "TITLE": "Mapa de Ubicación",
+    "DESCRIPTION": "Encuentra nuestra ubicación en el mapa."
+  },
+  "SOCIAL_MEDIA": {
+    "TITLE": "Redes Sociales",
+    "DESCRIPTION": "Síguenos en nuestras redes sociales para estar al tanto de nuestras últimas novedades."
+  },
+    "ADDITIONAL_INFO": {
+    "TITLE": "Información Adicional",
+    "DESCRIPTION": "Cualquier otra información relevante que desees compartir con nosotros.",
+    "PLACEHOLDER": "Escribe aquí cualquier información adicional..."
   }
   
   }
