@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./aboutus.component.css']
 })
 export class AboutusComponent {
-
+  breadcrumbRoutes = [
+    { label: 'Home', path: '/' },
+    { label: 'Nosotros', path: '/nosotros' }
+  ];
 }

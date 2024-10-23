@@ -1,0 +1,46 @@
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 50vh; /* Altura del banner: 50% de la altura de la ventana */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* El texto será blanco para mayor contraste */
+  }
+  
+  .banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center;
+    z-index: 1; /* La imagen está en el fondo */
+    filter: brightness(70%); /* Oscurece ligeramente la imagen para mayor legibilidad del texto */
+  }
+  
+  .banner-content {
+    position: relative;
+    z-index: 2; /* El contenido está por encima de la imagen */
+  }
+  
+  .banner-title {
+    font-size: 3rem; /* Tamaño del título */
+    margin-bottom: 0.5rem;
+  }
+  
+  .breadcrumb {
+    font-size: 1rem;
+  }
+  
+  .breadcrumb a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }

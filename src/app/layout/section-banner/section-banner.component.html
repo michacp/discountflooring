@@ -1,0 +1,16 @@
+<div class="banner-container">
+    <!-- Imagen de fondo -->
+    <div class="banner-image" [ngStyle]="{'background-image': 'url(assets/images/banner.jpg)'}"></div>
+  
+    <!-- Contenido del banner (Título y Rutas) -->
+    <div class="banner-content">
+      <h1 class="banner-title">{{ sectionTitle }}</h1>
+      <nav class="breadcrumb">
+        <span *ngFor="let route of routes; let last = last">
+          <a *ngIf="!last" [routerLink]="route.path">{{ route.label }}</a>
+          <span *ngIf="last">{{ route.label }}</span>
+          <span *ngIf="!last"> / </span>
+        </span>
+      </nav>
+    </div>
+  </div>

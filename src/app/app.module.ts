@@ -17,7 +17,9 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';  
 
-import { ReactiveFormsModule, FormsModule } from '@angular/forms'; 
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+ 
+import { SectionBannerComponent } from './layout/section-banner/section-banner.component'; 
 // Función para crear TranslateHttpLoader
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -29,6 +31,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     FooterComponent,
     NavbarComponent,
     routingComponents, 
+    SectionBannerComponent, 
 
   ],
   imports: [
